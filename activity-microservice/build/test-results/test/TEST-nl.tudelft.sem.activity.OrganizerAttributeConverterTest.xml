@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.activity.OrganizerAttributeConverterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-01-25T00:39:17" hostname="LAPTOP-VLADI2" time="0.001">
+  <properties/>
+  <testcase name="convertToEntityAttributeTest()" classname="nl.tudelft.sem.activity.OrganizerAttributeConverterTest" time="0.001"/>
+  <testcase name="convertToDatabaseColumnTest()" classname="nl.tudelft.sem.activity.OrganizerAttributeConverterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

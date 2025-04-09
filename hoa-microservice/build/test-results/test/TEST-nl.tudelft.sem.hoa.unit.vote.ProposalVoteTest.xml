@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.hoa.unit.vote.ProposalVoteTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-01-25T00:41:40" hostname="LAPTOP-VLADI2" time="0.001">
+  <properties/>
+  <testcase name="getProposalIdEmpty()" classname="nl.tudelft.sem.hoa.unit.vote.ProposalVoteTest" time="0.001"/>
+  <testcase name="setDecisionSame()" classname="nl.tudelft.sem.hoa.unit.vote.ProposalVoteTest" time="0.0"/>
+  <testcase name="getProposalIdNormal()" classname="nl.tudelft.sem.hoa.unit.vote.ProposalVoteTest" time="0.0"/>
+  <testcase name="setDecisionChange()" classname="nl.tudelft.sem.hoa.unit.vote.ProposalVoteTest" time="0.0"/>
+  <testcase name="getDecisionAccept()" classname="nl.tudelft.sem.hoa.unit.vote.ProposalVoteTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

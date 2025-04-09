@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>Description.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package nl.tudelft.sem.activity.domain;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.Objects;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>/**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * A DDD value object representing a Description in our domain.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> */</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public class Description {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private final transient String activityDescription;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    public Description(String activityDescription) {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        // validate NetID</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.activityDescription = activityDescription;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @Override</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public boolean equals(Object o) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_18'/>
+18
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_18'>1</a>
+<span>
+
+1. equals : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (this == o) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_19'/>
+19
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_19'>1</a>
+<span>
+
+1. equals : replaced boolean return with false for nl/tudelft/sem/activity/domain/Description::equals &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            return true;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_21'/>
+21
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_21'>1</a>
+<span>
+
+1. equals : negated conditional &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        if (o instanceof Description) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>            Description desc = (Description) o;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_23'/>
+23
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_23'>2</a>
+<span>
+
+1. equals : replaced boolean return with false for nl/tudelft/sem/activity/domain/Description::equals &rarr; KILLED<br/>
+
+2. equals : replaced boolean return with true for nl/tudelft/sem/activity/domain/Description::equals &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>            return this.activityDescription.equals(desc.toString());</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_24'/>
+24
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_24'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>        }</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_25'/>
+25
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_25'>1</a>
+<span>
+
+1. equals : replaced boolean return with true for nl/tudelft/sem/activity/domain/Description::equals &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return false;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_27'/>
+27
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_27'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_28'/>
+28
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_28'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @Override</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public int hashCode() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_30'/>
+30
+</td>
+<td class='survived'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_30'>1</a>
+<span>
+
+1. hashCode : replaced int return with 0 for nl/tudelft/sem/activity/domain/Description::hashCode &rarr; SURVIVED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='survived'>        return Objects.hash(this.activityDescription);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_31'/>
+31
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_31'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_32'/>
+32
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_32'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_33'/>
+33
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_33'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @Override</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_34'/>
+34
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_34'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public String toString() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_35'/>
+35
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_35'>1</a>
+<span>
+
+1. toString : replaced return value with &#34;&#34; for nl/tudelft/sem/activity/domain/Description::toString &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return activityDescription;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_36'/>
+36
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_36'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@278fe428_37'/>
+37
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_37'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@278fe428_18'>18</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_18'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>nl.tudelft.sem.activity.DescriptionTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionTest]/[method:equalsTest()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@278fe428_19'>19</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_19'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>nl.tudelft.sem.activity.DescriptionWasChangedEventTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionWasChangedEventTest]/[method:getDescriptionTest()]</span></span> replaced boolean return with false for nl/tudelft/sem/activity/domain/Description::equals &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@278fe428_21'>21</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_21'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>nl.tudelft.sem.activity.DescriptionAttributeConverterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionAttributeConverterTest]/[method:convertToEntityAttributeTest()]</span></span> negated conditional &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@278fe428_23'>23</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_23'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>nl.tudelft.sem.activity.DescriptionAttributeConverterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionAttributeConverterTest]/[method:convertToEntityAttributeTest()]</span></span> replaced boolean return with false for nl/tudelft/sem/activity/domain/Description::equals &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>nl.tudelft.sem.activity.DescriptionTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionTest]/[method:equalsTest()]</span></span> replaced boolean return with true for nl/tudelft/sem/activity/domain/Description::equals &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@278fe428_25'>25</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_25'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>equals<br/><b>Killed by : </b>nl.tudelft.sem.activity.DescriptionTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionTest]/[method:equalsTest()]</span></span> replaced boolean return with true for nl/tudelft/sem/activity/domain/Description::equals &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@278fe428_30'>30</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_30'/> 
+
+<p class='SURVIVED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>hashCode<br/><b>Killed by : </b>none</span></span> replaced int return with 0 for nl/tudelft/sem/activity/domain/Description::hashCode &rarr; SURVIVED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@278fe428_35'>35</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@278fe428_35'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>toString<br/><b>Killed by : </b>nl.tudelft.sem.activity.DescriptionTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionTest]/[method:toStringTest()]</span></span> replaced return value with &#34;&#34; for nl/tudelft/sem/activity/domain/Description::toString &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>nl.tudelft.sem.activity.DescriptionTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionTest]/[method:hashCodeTest()] (1 ms)</li><li>nl.tudelft.sem.activity.integration.ActivityControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.integration.ActivityControllerTest]/[method:registerActivityTest2()] (537 ms)</li><li>nl.tudelft.sem.activity.ActivityAlreadyCreatedExceptionTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.ActivityAlreadyCreatedExceptionTest]/[method:test()] (5 ms)</li><li>nl.tudelft.sem.activity.ActivityRepositoryTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.ActivityRepositoryTest]/[method:existsByIdTest()] (220 ms)</li><li>nl.tudelft.sem.activity.integration.ActivityControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.integration.ActivityControllerTest]/[method:findByIdTest1()] (540 ms)</li><li>nl.tudelft.sem.activity.RegistrationServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.RegistrationServiceTest]/[method:registerActivityTestFail()] (5 ms)</li><li>nl.tudelft.sem.activity.DescriptionTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionTest]/[method:toStringTest2()] (1 ms)</li><li>nl.tudelft.sem.activity.ActivityRepositoryTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.ActivityRepositoryTest]/[method:findByIdTest()] (199 ms)</li><li>nl.tudelft.sem.activity.integration.ActivityControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.integration.ActivityControllerTest]/[method:findAllActivitiesHoaTest2()] (582 ms)</li><li>nl.tudelft.sem.activity.integration.ActivityControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.integration.ActivityControllerTest]/[method:findAllUpcomingActivitiesHoaTest2()] (593 ms)</li><li>nl.tudelft.sem.activity.integration.ActivityControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.integration.ActivityControllerTest]/[method:respondActivityTest2()] (566 ms)</li><li>nl.tudelft.sem.activity.ActivityTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.ActivityTest]/[method:toStringTest()] (2 ms)</li><li>nl.tudelft.sem.activity.ActivityRepositoryTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.ActivityRepositoryTest]/[method:existsByOrganizerAndDescriptionTest()] (194 ms)</li><li>nl.tudelft.sem.activity.DescriptionTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionTest]/[method:toStringTest()] (1 ms)</li><li>nl.tudelft.sem.activity.integration.ActivityControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.integration.ActivityControllerTest]/[method:registerActivityTest1()] (578 ms)</li><li>nl.tudelft.sem.activity.integration.ActivityControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.integration.ActivityControllerTest]/[method:registerActivityTest3()] (545 ms)</li><li>nl.tudelft.sem.activity.ActivityRepositoryTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.ActivityRepositoryTest]/[method:findByHoaIdTest()] (237 ms)</li><li>nl.tudelft.sem.activity.ActivityWasCreatedEventTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.ActivityWasCreatedEventTest]/[method:getEventDescriptionTest()] (1 ms)</li><li>nl.tudelft.sem.activity.DescriptionWasChangedEventTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionWasChangedEventTest]/[method:getDescriptionTest()] (1 ms)</li><li>nl.tudelft.sem.activity.ActivityWasCreatedEventTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.ActivityWasCreatedEventTest]/[method:setEventDescriptionTest()] (1 ms)</li><li>nl.tudelft.sem.activity.integration.ActivityControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.integration.ActivityControllerTest]/[method:respondActivityTest3()] (548 ms)</li><li>nl.tudelft.sem.activity.DescriptionTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionTest]/[method:equalsTest()] (1 ms)</li><li>nl.tudelft.sem.activity.integration.ActivityControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.integration.ActivityControllerTest]/[method:findAllActivitiesHoaTest1()] (565 ms)</li><li>nl.tudelft.sem.activity.integration.ActivityControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.integration.ActivityControllerTest]/[method:findAllUpcomingActivitiesHoaTest1()] (645 ms)</li><li>nl.tudelft.sem.activity.DescriptionAttributeConverterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionAttributeConverterTest]/[method:convertToDatabaseColumnTest()] (2 ms)</li><li>nl.tudelft.sem.activity.DescriptionAttributeConverterTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.DescriptionAttributeConverterTest]/[method:convertToEntityAttributeTest()] (1 ms)</li><li>nl.tudelft.sem.activity.integration.ActivityControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.integration.ActivityControllerTest]/[method:respondActivityTest1()] (573 ms)</li><li>nl.tudelft.sem.activity.ActivityTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.activity.ActivityTest]/[method:hashCodeTest()] (2 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.5.1
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.activity.RegistrationServiceTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-01-25T00:39:17" hostname="LAPTOP-VLADI2" time="0.064">
+  <properties/>
+  <testcase name="constructorTest()" classname="nl.tudelft.sem.activity.RegistrationServiceTest" time="0.019"/>
+  <testcase name="checkActivityExistsByIdTest()" classname="nl.tudelft.sem.activity.RegistrationServiceTest" time="0.009"/>
+  <testcase name="findAllActivitiesTest()" classname="nl.tudelft.sem.activity.RegistrationServiceTest" time="0.003"/>
+  <testcase name="registerActivityTestFail()" classname="nl.tudelft.sem.activity.RegistrationServiceTest" time="0.003"/>
+  <testcase name="findAllActivitiesExceptionTest()" classname="nl.tudelft.sem.activity.RegistrationServiceTest" time="0.004"/>
+  <testcase name="checkActivityIsUniqueTest()" classname="nl.tudelft.sem.activity.RegistrationServiceTest" time="0.003"/>
+  <testcase name="registerActivityTestSuccess()" classname="nl.tudelft.sem.activity.RegistrationServiceTest" time="0.003"/>
+  <testcase name="registerResponseTest()" classname="nl.tudelft.sem.activity.RegistrationServiceTest" time="0.003"/>
+  <testcase name="findActivityByIdTest1()" classname="nl.tudelft.sem.activity.RegistrationServiceTest" time="0.004"/>
+  <testcase name="findActivityByIdTest2()" classname="nl.tudelft.sem.activity.RegistrationServiceTest" time="0.003"/>
+  <testcase name="findActivityByIdTest3()" classname="nl.tudelft.sem.activity.RegistrationServiceTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[java.lang.RuntimeException
+java.lang.RuntimeException
+]]></system-err>
+</testsuite>

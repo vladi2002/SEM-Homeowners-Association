@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.hoa.unit.vote.ElectionVoteTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-01-25T00:41:40" hostname="LAPTOP-VLADI2" time="0.001">
+  <properties/>
+  <testcase name="testGetElectionIdNormal()" classname="nl.tudelft.sem.hoa.unit.vote.ElectionVoteTest" time="0.001"/>
+  <testcase name="testGetElectionIdEmpty()" classname="nl.tudelft.sem.hoa.unit.vote.ElectionVoteTest" time="0.0"/>
+  <testcase name="testGetApplicantIdNormal()" classname="nl.tudelft.sem.hoa.unit.vote.ElectionVoteTest" time="0.0"/>
+  <testcase name="testGetApplicantIdEmpty()" classname="nl.tudelft.sem.hoa.unit.vote.ElectionVoteTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

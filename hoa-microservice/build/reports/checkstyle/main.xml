@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\Application.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\application\ProposalListener.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\authentication\AuthManager.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\authentication\JwtAuthenticationEntryPoint.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\authentication\JwtRequestFilter.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\authentication\JwtTokenVerifier.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\config\H2Config.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\config\RequestAuthenticationConfig.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\config\RestClientConfig.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\controllers\DefaultController.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\controllers\ElectionController.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\controllers\HoaController.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\controllers\ProposalController.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\CreationDate.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\DateAttributeConverter.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\ElectionExceptionService.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\HasEvents.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\HoaIdNotFoundException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\JoinHoaService.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\ProposalExceptionService.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\Report.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\ReportRepository.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\ReportService.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\RuleNotFoundException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\ApplicantDoesNotExistException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\CantVoteForThemselvesException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\Election.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\ElectionCreationModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\ElectionDoesntExistException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\ElectionHasNoVotesException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\ElectionIdAlreadyExistsException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\ElectionRepository.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\ElectionResultModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\ElectionService.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\ElectionVotesWereUpdatedEvent.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\ElectionWasCreatedEvent.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\UserHasAlreadyVotedException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\elections\VoteCreationModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\Address.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\Hoa.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\HoaAlreadyExistException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\HoaDoesNotExistException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\HoaId.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\HoaIdAttributeConverter.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\HoaRepository.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\HoaWasCreatedEvent.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\MemberAlreadyInHoaException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\MemberAppUser.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\MembersRepository.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\RuleHoa.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\RuleRepository.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\RuleService.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\SetUpService.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\hoa\UserHasJoinedEvent.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\HasVotedAttributeConverter.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\Proposal.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\ProposalPk.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\ProposalRepository.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\ProposalService.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\ProposalType.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\ProposalTypeAttributeConverter.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\ProposalVotesWereUpdatedEvent.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\ProposalWasCreatedEvent.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\RuleProposal.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\exceptions\AlreadyVotedException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\exceptions\InvalidRuleIdException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\exceptions\NotBoardMemberException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\exceptions\NotPartOfHoaException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\exceptions\ProposalIdAlreadyExistsException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\exceptions\ProposalIdNotFoundException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\proposals\exceptions\ProposalVotingIsClosedException.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\vote\Decision.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\vote\ElectionVote.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\vote\ProposalVote.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\vote\SpecialVote.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\vote\TypelessVote.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\domain\vote\Vote.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\AddressUpdateRequestModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\AuthenticationRequestModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\AuthenticationResponseModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\CreateHoaRequestModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\FindHoaModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\GetAddressRequestModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\JoinHoaModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\ProposalModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\ProposalResponseModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\ProposalVoteModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\RegistrationRequestModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\ReportUserModel.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\main\java\nl\tudelft\sem\hoa\models\UpdateRequestModel.java">
+</file>
+</checkstyle>

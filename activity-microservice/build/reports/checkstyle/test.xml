@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\ActivityAlreadyCreatedExceptionTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\ActivityNotExistsExceptionTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\ActivityRepositoryTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\ActivityResponseTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\ActivityTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\ActivityWasCreatedEventTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\DateAttributeConverterTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\DescriptionAttributeConverterTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\DescriptionTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\DescriptionWasChangedEventTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\HoaAttributeConverterTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\HoaIdTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\OrganizerAttributeConverterTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\OrganizerTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\RegistrationServiceTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\ResponseBuildDirectorTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\ResponseBuilderTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\ResponsesAttributeConverterTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\UserDoesNotBelongToThisHoaExceptionTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\authentication\AuthManagerTests.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\authentication\JwtAuthenticationEntryPointTests.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\authentication\JwtRequestFilterTests.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\authentication\JwtTokenVerifierTests.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\integration\ActivityControllerTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\profiles\MockAuthenticationManagerProfile.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\activity-microservice\src\test\java\nl\tudelft\sem\activity\profiles\MockTokenVerifierProfile.java">
+</file>
+</checkstyle>

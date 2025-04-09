@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.hoa.integration.SetUpServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-01-25T00:41:35" hostname="LAPTOP-VLADI2" time="4.613">
+  <properties/>
+  <testcase name="checkHoaIdIsUniqueTest()" classname="nl.tudelft.sem.hoa.integration.SetUpServiceTest" time="0.715"/>
+  <testcase name="findByCountryAndCityTest()" classname="nl.tudelft.sem.hoa.integration.SetUpServiceTest" time="0.711"/>
+  <testcase name="setUpHoaTest()" classname="nl.tudelft.sem.hoa.integration.SetUpServiceTest" time="0.693"/>
+  <testcase name="setUpHoaTestAlreadyExists()" classname="nl.tudelft.sem.hoa.integration.SetUpServiceTest" time="0.705"/>
+  <testcase name="testSetup1()" classname="nl.tudelft.sem.hoa.integration.SetUpServiceTest" time="0.572"/>
+  <testcase name="setUpHoaTestNull()" classname="nl.tudelft.sem.hoa.integration.SetUpServiceTest" time="0.554"/>
+  <testcase name="findHoaByHoaIdTest()" classname="nl.tudelft.sem.hoa.integration.SetUpServiceTest" time="0.66"/>
+  <system-out><![CDATA[2023-01-25 01:41:35.315  INFO 2240 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [nl.tudelft.sem.hoa.integration.SetUpServiceTest], using SpringBootContextLoader
+2023-01-25 01:41:35.315  INFO 2240 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [nl.tudelft.sem.hoa.integration.SetUpServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-01-25 01:41:35.315  INFO 2240 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [nl.tudelft.sem.hoa.integration.SetUpServiceTest]: SetUpServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-01-25 01:41:35.316  INFO 2240 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration nl.tudelft.sem.hoa.Application for test class nl.tudelft.sem.hoa.integration.SetUpServiceTest
+2023-01-25 01:41:35.316  INFO 2240 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-01-25 01:41:35.316  INFO 2240 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5881105, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@46919682, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3bdb1bc4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@c86a878, org.springframework.test.context.support.DirtiesContextTestExecutionListener@49c390d4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3ac3ae8, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@604a0462, org.springframework.test.context.event.EventPublishingTestExecutionListener@59b6b57b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@ca6dba9, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6ebfcbaf, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5e66ab0e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3217d0d4, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@8d63eac, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@18247eaa]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-25 01:41:35.332  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Starting SetUpServiceTest on LAPTOP-VLADI2 with PID 2240 (started by vladi in C:\Portable\Projects\SEM\SEM19a\hoa-microservice)
+2023-01-25 01:41:35.332  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : The following profiles are active: mockSetUpServiceProfile
+2023-01-25 01:41:35.408  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-25 01:41:35.421  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 6 JPA repository interfaces.
+2023-01-25 01:41:35.489  INFO 2240 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-25 01:41:35.494  INFO 2240 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-25 01:41:35.520  WARN 2240 --- [    Test worker] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: nl.tudelft.sem.hoa.domain.proposals.RuleProposal
+2023-01-25 01:41:35.522  WARN 2240 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.hoa.domain.CreationDate] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-25 01:41:35.548  INFO 2240 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-25 01:41:35.548  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:35.573  WARN 2240 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-25 01:41:35.701  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:35.710  INFO 2240 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./hoa-microservice/hoa'
+2023-01-25 01:41:35.845  INFO 2240 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3beeaa65-d076-48dd-a92a-3e7a1d41da88
+
+2023-01-25 01:41:35.878  INFO 2240 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@43944639, org.springframework.security.web.context.SecurityContextPersistenceFilter@769fb877, org.springframework.security.web.header.HeaderWriterFilter@7c08c5b8, org.springframework.security.web.authentication.logout.LogoutFilter@3bf490b4, nl.tudelft.sem.hoa.authentication.JwtRequestFilter@42a65aba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5389dd6c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6996e7a0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50d765d7, org.springframework.security.web.session.SessionManagementFilter@394c0409, org.springframework.security.web.access.ExceptionTranslationFilter@1f774880, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3d0e951f]
+2023-01-25 01:41:35.896  INFO 2240 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-01-25 01:41:35.896  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-01-25 01:41:35.899  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-01-25 01:41:35.901  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Started SetUpServiceTest in 0.584 seconds (JVM running for 94.47)
+2023-01-25 01:41:35.903  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:35.903  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:35.903  INFO 2240 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-25 01:41:35.934  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Starting SetUpServiceTest on LAPTOP-VLADI2 with PID 2240 (started by vladi in C:\Portable\Projects\SEM\SEM19a\hoa-microservice)
+2023-01-25 01:41:35.934  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : The following profiles are active: mockSetUpServiceProfile
+2023-01-25 01:41:36.005  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-25 01:41:36.019  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 6 JPA repository interfaces.
+2023-01-25 01:41:36.085  INFO 2240 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-25 01:41:36.090  INFO 2240 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-25 01:41:36.124  WARN 2240 --- [    Test worker] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: nl.tudelft.sem.hoa.domain.proposals.RuleProposal
+2023-01-25 01:41:36.129  WARN 2240 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.hoa.domain.CreationDate] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-25 01:41:36.179  INFO 2240 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-25 01:41:36.179  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:36.202  WARN 2240 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-25 01:41:36.318  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:36.326  INFO 2240 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./hoa-microservice/hoa'
+2023-01-25 01:41:36.455  INFO 2240 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 54bac485-e212-4a44-98d5-25be140acdd9
+
+2023-01-25 01:41:36.486  INFO 2240 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2adcb0a, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f27a6cf, org.springframework.security.web.header.HeaderWriterFilter@c8daf8d, org.springframework.security.web.authentication.logout.LogoutFilter@17b71234, nl.tudelft.sem.hoa.authentication.JwtRequestFilter@15370e64, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3275397, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62b775b9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c8f8033, org.springframework.security.web.session.SessionManagementFilter@2e2128bc, org.springframework.security.web.access.ExceptionTranslationFilter@264954a8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7f55d86d]
+2023-01-25 01:41:36.504  INFO 2240 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-01-25 01:41:36.504  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-01-25 01:41:36.507  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-01-25 01:41:36.510  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Started SetUpServiceTest in 0.59 seconds (JVM running for 95.079)
+2023-01-25 01:41:36.618  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:36.619  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:36.619  INFO 2240 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-25 01:41:36.640  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Starting SetUpServiceTest on LAPTOP-VLADI2 with PID 2240 (started by vladi in C:\Portable\Projects\SEM\SEM19a\hoa-microservice)
+2023-01-25 01:41:36.640  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : The following profiles are active: mockSetUpServiceProfile
+2023-01-25 01:41:36.713  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-25 01:41:36.728  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 6 JPA repository interfaces.
+2023-01-25 01:41:36.802  INFO 2240 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-25 01:41:36.806  INFO 2240 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-25 01:41:36.842  WARN 2240 --- [    Test worker] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: nl.tudelft.sem.hoa.domain.proposals.RuleProposal
+2023-01-25 01:41:36.846  WARN 2240 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.hoa.domain.CreationDate] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-25 01:41:36.891  INFO 2240 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-25 01:41:36.891  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:36.916  WARN 2240 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-25 01:41:37.039  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:37.047  INFO 2240 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./hoa-microservice/hoa'
+2023-01-25 01:41:37.180  INFO 2240 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9cdefd56-2640-40b3-a5ab-ed124d864821
+
+2023-01-25 01:41:37.209  INFO 2240 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31450e56, org.springframework.security.web.context.SecurityContextPersistenceFilter@2d15c1be, org.springframework.security.web.header.HeaderWriterFilter@10c8ed37, org.springframework.security.web.authentication.logout.LogoutFilter@51b9b538, nl.tudelft.sem.hoa.authentication.JwtRequestFilter@74a548bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ecde4e5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79bb055e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36f49faa, org.springframework.security.web.session.SessionManagementFilter@17479eb4, org.springframework.security.web.access.ExceptionTranslationFilter@18037b12, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@49da22f9]
+2023-01-25 01:41:37.227  INFO 2240 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-01-25 01:41:37.227  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-01-25 01:41:37.230  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-01-25 01:41:37.232  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Started SetUpServiceTest in 0.607 seconds (JVM running for 95.801)
+2023-01-25 01:41:37.332  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:37.333  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:37.333  INFO 2240 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-25 01:41:37.398  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Starting SetUpServiceTest on LAPTOP-VLADI2 with PID 2240 (started by vladi in C:\Portable\Projects\SEM\SEM19a\hoa-microservice)
+2023-01-25 01:41:37.399  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : The following profiles are active: mockSetUpServiceProfile
+2023-01-25 01:41:37.476  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-25 01:41:37.489  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 6 JPA repository interfaces.
+2023-01-25 01:41:37.557  INFO 2240 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-25 01:41:37.561  INFO 2240 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-25 01:41:37.599  WARN 2240 --- [    Test worker] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: nl.tudelft.sem.hoa.domain.proposals.RuleProposal
+2023-01-25 01:41:37.601  WARN 2240 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.hoa.domain.CreationDate] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-25 01:41:37.634  INFO 2240 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-25 01:41:37.635  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:37.660  WARN 2240 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-25 01:41:37.784  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:37.792  INFO 2240 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./hoa-microservice/hoa'
+2023-01-25 01:41:37.898  INFO 2240 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: fd2459c4-9e19-4bbb-adde-839b340f9533
+
+2023-01-25 01:41:37.929  INFO 2240 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@8508816, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bf1e8fb, org.springframework.security.web.header.HeaderWriterFilter@32961f53, org.springframework.security.web.authentication.logout.LogoutFilter@64cef028, nl.tudelft.sem.hoa.authentication.JwtRequestFilter@1851cc27, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@366e314a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3400cc53, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@367fd544, org.springframework.security.web.session.SessionManagementFilter@69d9ae37, org.springframework.security.web.access.ExceptionTranslationFilter@4bb0dc4b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42c9cd80]
+2023-01-25 01:41:37.947  INFO 2240 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-01-25 01:41:37.948  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-01-25 01:41:37.951  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-01-25 01:41:37.953  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Started SetUpServiceTest in 0.606 seconds (JVM running for 96.522)
+2023-01-25 01:41:38.025  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:38.025  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:38.025  INFO 2240 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-25 01:41:38.044  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Starting SetUpServiceTest on LAPTOP-VLADI2 with PID 2240 (started by vladi in C:\Portable\Projects\SEM\SEM19a\hoa-microservice)
+2023-01-25 01:41:38.044  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : The following profiles are active: mockSetUpServiceProfile
+2023-01-25 01:41:38.115  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-25 01:41:38.129  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 6 JPA repository interfaces.
+2023-01-25 01:41:38.198  INFO 2240 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-25 01:41:38.203  INFO 2240 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-25 01:41:38.238  WARN 2240 --- [    Test worker] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: nl.tudelft.sem.hoa.domain.proposals.RuleProposal
+2023-01-25 01:41:38.243  WARN 2240 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.hoa.domain.CreationDate] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-25 01:41:38.296  INFO 2240 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-25 01:41:38.296  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:38.320  WARN 2240 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-25 01:41:38.439  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:38.446  INFO 2240 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./hoa-microservice/hoa'
+2023-01-25 01:41:38.577  INFO 2240 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e2e81d11-4d06-4d39-831b-dc9a430faf05
+
+2023-01-25 01:41:38.607  INFO 2240 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@39ce5052, org.springframework.security.web.context.SecurityContextPersistenceFilter@41f8ffdf, org.springframework.security.web.header.HeaderWriterFilter@37594fa9, org.springframework.security.web.authentication.logout.LogoutFilter@7b3966a8, nl.tudelft.sem.hoa.authentication.JwtRequestFilter@2995244f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c32adf7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@716b8fdf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@76510bfd, org.springframework.security.web.session.SessionManagementFilter@3de62702, org.springframework.security.web.access.ExceptionTranslationFilter@1e98dca, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27114454]
+2023-01-25 01:41:38.625  INFO 2240 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-01-25 01:41:38.625  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-01-25 01:41:38.628  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-01-25 01:41:38.631  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Started SetUpServiceTest in 0.601 seconds (JVM running for 97.2)
+2023-01-25 01:41:38.730  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:38.730  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:38.730  INFO 2240 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-25 01:41:38.749  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Starting SetUpServiceTest on LAPTOP-VLADI2 with PID 2240 (started by vladi in C:\Portable\Projects\SEM\SEM19a\hoa-microservice)
+2023-01-25 01:41:38.749  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : The following profiles are active: mockSetUpServiceProfile
+2023-01-25 01:41:38.826  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-25 01:41:38.840  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 6 JPA repository interfaces.
+2023-01-25 01:41:38.910  INFO 2240 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-25 01:41:38.914  INFO 2240 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-25 01:41:38.949  WARN 2240 --- [    Test worker] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: nl.tudelft.sem.hoa.domain.proposals.RuleProposal
+2023-01-25 01:41:38.951  WARN 2240 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.hoa.domain.CreationDate] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-25 01:41:38.992  INFO 2240 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-25 01:41:38.992  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:39.020  WARN 2240 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-25 01:41:39.135  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:39.142  INFO 2240 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./hoa-microservice/hoa'
+2023-01-25 01:41:39.245  INFO 2240 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: da9fa9bf-2be8-4484-a83a-f19c6309ea75
+
+2023-01-25 01:41:39.274  INFO 2240 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7393432, org.springframework.security.web.context.SecurityContextPersistenceFilter@50aad5d8, org.springframework.security.web.header.HeaderWriterFilter@a529681, org.springframework.security.web.authentication.logout.LogoutFilter@4c829078, nl.tudelft.sem.hoa.authentication.JwtRequestFilter@56f00414, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@655ab6ec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b22d258, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@157c2b22, org.springframework.security.web.session.SessionManagementFilter@8672e8f, org.springframework.security.web.access.ExceptionTranslationFilter@1f65440d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76136f2]
+2023-01-25 01:41:39.292  INFO 2240 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-01-25 01:41:39.292  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-01-25 01:41:39.295  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-01-25 01:41:39.297  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Started SetUpServiceTest in 0.562 seconds (JVM running for 97.866)
+2023-01-25 01:41:39.302  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:39.302  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:39.302  INFO 2240 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-25 01:41:39.322  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Starting SetUpServiceTest on LAPTOP-VLADI2 with PID 2240 (started by vladi in C:\Portable\Projects\SEM\SEM19a\hoa-microservice)
+2023-01-25 01:41:39.322  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : The following profiles are active: mockSetUpServiceProfile
+2023-01-25 01:41:39.396  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-25 01:41:39.410  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 6 JPA repository interfaces.
+2023-01-25 01:41:39.475  INFO 2240 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-25 01:41:39.479  INFO 2240 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-25 01:41:39.510  WARN 2240 --- [    Test worker] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: nl.tudelft.sem.hoa.domain.proposals.RuleProposal
+2023-01-25 01:41:39.512  WARN 2240 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.hoa.domain.CreationDate] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-25 01:41:39.547  INFO 2240 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-25 01:41:39.547  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:39.570  WARN 2240 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-25 01:41:39.696  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:39.705  INFO 2240 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./hoa-microservice/hoa'
+2023-01-25 01:41:39.800  INFO 2240 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a1761762-38bd-4d95-83a9-72eb863a6228
+
+2023-01-25 01:41:39.830  INFO 2240 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12293df1, org.springframework.security.web.context.SecurityContextPersistenceFilter@544227dc, org.springframework.security.web.header.HeaderWriterFilter@39576703, org.springframework.security.web.authentication.logout.LogoutFilter@38d7d628, nl.tudelft.sem.hoa.authentication.JwtRequestFilter@29cb5ca7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14da4712, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@163755f5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54863986, org.springframework.security.web.session.SessionManagementFilter@318b473a, org.springframework.security.web.access.ExceptionTranslationFilter@184b0264, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@553ea367]
+2023-01-25 01:41:39.848  INFO 2240 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-01-25 01:41:39.848  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-01-25 01:41:39.851  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-01-25 01:41:39.853  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Started SetUpServiceTest in 0.546 seconds (JVM running for 98.422)
+2023-01-25 01:41:39.857  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:39.857  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:39.857  INFO 2240 --- [    Test worker] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.5.RELEASE)
+
+2023-01-25 01:41:39.890  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Starting SetUpServiceTest on LAPTOP-VLADI2 with PID 2240 (started by vladi in C:\Portable\Projects\SEM\SEM19a\hoa-microservice)
+2023-01-25 01:41:39.890  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : The following profiles are active: mockSetUpServiceProfile
+2023-01-25 01:41:39.963  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-25 01:41:39.977  INFO 2240 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 6 JPA repository interfaces.
+2023-01-25 01:41:40.044  INFO 2240 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-25 01:41:40.049  INFO 2240 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-25 01:41:40.093  WARN 2240 --- [    Test worker] org.hibernate.cfg.AnnotationBinder       : HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: nl.tudelft.sem.hoa.domain.proposals.RuleProposal
+2023-01-25 01:41:40.096  WARN 2240 --- [    Test worker] o.h.t.d.java.JavaTypeDescriptorRegistry  : HHH000481: Encountered Java type [class nl.tudelft.sem.hoa.domain.CreationDate] for which we could not locate a JavaTypeDescriptor and which does not appear to implement equals and/or hashCode.  This can lead to significant performance problems when performing equality/dirty checking involving this Java type.  Consider registering a custom JavaTypeDescriptor or at least implementing equals/hashCode.
+2023-01-25 01:41:40.129  INFO 2240 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-25 01:41:40.129  INFO 2240 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-25 01:41:40.155  WARN 2240 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-25 01:41:40.278  INFO 2240 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-25 01:41:40.286  INFO 2240 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:./hoa-microservice/hoa'
+2023-01-25 01:41:40.390  INFO 2240 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c9a24404-ed40-4956-94ba-b7db92867db5
+
+2023-01-25 01:41:40.420  INFO 2240 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@13635599, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cd969de, org.springframework.security.web.header.HeaderWriterFilter@54b5b384, org.springframework.security.web.authentication.logout.LogoutFilter@2c3fea63, nl.tudelft.sem.hoa.authentication.JwtRequestFilter@5f8e253, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d5ffec5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@140f4979, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@50032e55, org.springframework.security.web.session.SessionManagementFilter@31a3c79c, org.springframework.security.web.access.ExceptionTranslationFilter@622a73ab, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ff32003]
+2023-01-25 01:41:40.438  INFO 2240 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-01-25 01:41:40.438  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-01-25 01:41:40.441  INFO 2240 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2023-01-25 01:41:40.444  INFO 2240 --- [    Test worker] n.t.s.hoa.integration.SetUpServiceTest   : Started SetUpServiceTest in 0.57 seconds (JVM running for 99.013)
+found hoa
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.hoa.unit.vote.SpecialVoteTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-01-25T00:41:40" hostname="LAPTOP-VLADI2" time="0.001">
+  <properties/>
+  <testcase name="testEquals2()" classname="nl.tudelft.sem.hoa.unit.vote.SpecialVoteTest" time="0.0"/>
+  <testcase name="getVote()" classname="nl.tudelft.sem.hoa.unit.vote.SpecialVoteTest" time="0.0"/>
+  <testcase name="getUserIdNormal()" classname="nl.tudelft.sem.hoa.unit.vote.SpecialVoteTest" time="0.0"/>
+  <testcase name="getUserIdEmpty()" classname="nl.tudelft.sem.hoa.unit.vote.SpecialVoteTest" time="0.0"/>
+  <testcase name="testHashCode()" classname="nl.tudelft.sem.hoa.unit.vote.SpecialVoteTest" time="0.0"/>
+  <testcase name="testHashCode2()" classname="nl.tudelft.sem.hoa.unit.vote.SpecialVoteTest" time="0.0"/>
+  <testcase name="testEquals()" classname="nl.tudelft.sem.hoa.unit.vote.SpecialVoteTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

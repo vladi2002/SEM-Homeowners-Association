@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>HasEvents.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package nl.tudelft.sem.hoa.domain;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.ArrayList;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.Collection;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.Collections;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.List;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.Objects;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.data.domain.AfterDomainEventPublication;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import org.springframework.data.domain.DomainEvents;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>/**</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> * A base class for adding domain event support to an entity.</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''> */</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>public abstract class HasEvents {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    private final transient List&#60;Object&#62; domainEvents = new ArrayList&#60;&#62;();</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    protected void recordThat(Object event) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        domainEvents.add(Objects.requireNonNull(event));</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_22'/>
+22
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_22'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_23'/>
+23
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_23'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @DomainEvents</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_24'/>
+24
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_24'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    protected Collection&#60;Object&#62; releaseEvents() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_25'/>
+25
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_25'>1</a>
+<span>
+
+1. releaseEvents : replaced return value with Collections.emptyList for nl/tudelft/sem/hoa/domain/HasEvents::releaseEvents &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return Collections.unmodifiableList(domainEvents);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_27'/>
+27
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_27'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_28'/>
+28
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_28'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    @AfterDomainEventPublication</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    protected void clearEvents() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_30'/>
+30
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_30'>1</a>
+<span>
+
+1. clearEvents : removed call to java/util/List::clear &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        this.domainEvents.clear();</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_31'/>
+31
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_31'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@332cf8ba_32'/>
+32
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_32'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@332cf8ba_25'>25</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_25'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>releaseEvents<br/><b>Killed by : </b>nl.tudelft.sem.hoa.integration.MembersRepositoryTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.MembersRepositoryTest]/[method:existsByUsername()]</span></span> replaced return value with Collections.emptyList for nl/tudelft/sem/hoa/domain/HasEvents::releaseEvents &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@332cf8ba_30'>30</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@332cf8ba_30'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>clearEvents<br/><b>Killed by : </b>nl.tudelft.sem.hoa.integration.HoaRepositoryTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.HoaRepositoryTest]/[method:repTest()]</span></span> removed call to java/util/List::clear &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>BOOLEAN_FALSE_RETURN</li>
+
+<li class='mutator'>BOOLEAN_TRUE_RETURN</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+<li class='mutator'>EMPTY_RETURN_VALUES</li>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>NULL_RETURN_VALUES</li>
+
+<li class='mutator'>PRIMITIVE_RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>nl.tudelft.sem.hoa.authentication.AuthManagerTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.authentication.AuthManagerTests]/[method:getNetidTest()] (5 ms)</li><li>nl.tudelft.sem.hoa.integration.ProposalsTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.ProposalsTest]/[method:vote_proposal_throws_400_too_old()] (711 ms)</li><li>nl.tudelft.sem.hoa.integration.DefaultControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.DefaultControllerTest]/[method:findBoardMembers1()] (672 ms)</li><li>nl.tudelft.sem.hoa.integration.ProposalsTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.ProposalsTest]/[method:vote_proposal_throws_401_not_part_of_hoa()] (728 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:vote_works()] (750 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:vote_throws_votingClosedTooOld()] (647 ms)</li><li>nl.tudelft.sem.hoa.controllers.HoaControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.controllers.HoaControllerTest]/[method:findHoa()] (574 ms)</li><li>nl.tudelft.sem.hoa.integration.DefaultControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.DefaultControllerTest]/[method:electionVoteTest()] (718 ms)</li><li>nl.tudelft.sem.hoa.integration.SetUpServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.SetUpServiceTest]/[method:setUpHoaTestAlreadyExists()] (600 ms)</li><li>nl.tudelft.sem.hoa.integration.MemberRepositoryTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.MemberRepositoryTest]/[method:repTest()] (37 ms)</li><li>nl.tudelft.sem.hoa.integration.RuleServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.RuleServiceTest]/[method:findRulesByHoaId_test()] (33 ms)</li><li>nl.tudelft.sem.hoa.controllers.HoaControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.controllers.HoaControllerTest]/[method:createTest1()] (640 ms)</li><li>nl.tudelft.sem.hoa.integration.HoaRepositoryTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.HoaRepositoryTest]/[method:repTest()] (21 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:creation_throws_proposalAlreadyExists()] (738 ms)</li><li>nl.tudelft.sem.hoa.controllers.HoaControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.controllers.HoaControllerTest]/[method:userNotInHoa()] (605 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:get_works()] (642 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:vote_throws_notPartOfHoa()] (683 ms)</li><li>nl.tudelft.sem.hoa.integration.ReportingTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.ReportingTest]/[method:fileInvalidReport()] (32 ms)</li><li>nl.tudelft.sem.hoa.integration.JoinHoaServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.JoinHoaServiceTest]/[method:joinHoaNewUser()] (610 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:creation_throws_invalidRule()] (658 ms)</li><li>nl.tudelft.sem.hoa.integration.MembersRepositoryTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.MembersRepositoryTest]/[method:existsByUsername()] (561 ms)</li><li>nl.tudelft.sem.hoa.integration.JoinHoaServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.JoinHoaServiceTest]/[method:joinHoaAlreadyInHoa()] (619 ms)</li><li>nl.tudelft.sem.hoa.integration.ProposalsTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.ProposalsTest]/[method:create_rule_proposal_works()] (714 ms)</li><li>nl.tudelft.sem.hoa.integration.DefaultControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.DefaultControllerTest]/[method:electionsResult1()] (716 ms)</li><li>nl.tudelft.sem.hoa.integration.MembersRepositoryTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.MembersRepositoryTest]/[method:findMemberAppUsersByUsername()] (563 ms)</li><li>nl.tudelft.sem.hoa.controllers.HoaControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.controllers.HoaControllerTest]/[method:leaveHoaSuccess()] (594 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:creation_throws_ruleNotFound()] (724 ms)</li><li>nl.tudelft.sem.hoa.integration.DefaultControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.DefaultControllerTest]/[method:applyBoardTest4()] (670 ms)</li><li>nl.tudelft.sem.hoa.controllers.HoaControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.controllers.HoaControllerTest]/[method:findHoaFromUsername()] (610 ms)</li><li>nl.tudelft.sem.hoa.integration.DefaultControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.DefaultControllerTest]/[method:electionVoteTest2()] (661 ms)</li><li>nl.tudelft.sem.hoa.integration.RuleServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.RuleServiceTest]/[method:add_rules_Test()] (35 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:creation_throws_notPartOfHoa()] (664 ms)</li><li>nl.tudelft.sem.hoa.integration.ProposalsTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.ProposalsTest]/[method:vote_proposal_throws_401_not_board_member()] (706 ms)</li><li>nl.tudelft.sem.hoa.integration.JoinHoaServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.JoinHoaServiceTest]/[method:findHoa()] (615 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:creation_throws_notBoardMember()] (639 ms)</li><li>nl.tudelft.sem.hoa.integration.ReportingTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.ReportingTest]/[method:fileValidReport()] (36 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:creation_throws_hoaNotFound()] (635 ms)</li><li>nl.tudelft.sem.hoa.integration.GetRulesTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.GetRulesTest]/[method:getRulesInvalid()] (25 ms)</li><li>nl.tudelft.sem.hoa.integration.GetRulesTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.GetRulesTest]/[method:getRulesValid1()] (25 ms)</li><li>nl.tudelft.sem.hoa.integration.ProposalsTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.ProposalsTest]/[method:vote_proposal_throws_400_too_young()] (721 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:vote_throws_alreadyVoted()] (763 ms)</li><li>nl.tudelft.sem.hoa.integration.ProposalsTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.ProposalsTest]/[method:create_proposal_throws_400_proposal_id_already_exists()] (745 ms)</li><li>nl.tudelft.sem.hoa.integration.RuleServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.RuleServiceTest]/[method:delete_rules_Test()] (36 ms)</li><li>nl.tudelft.sem.hoa.controllers.HoaControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.controllers.HoaControllerTest]/[method:createTest3()] (616 ms)</li><li>nl.tudelft.sem.hoa.integration.JoinHoaServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.JoinHoaServiceTest]/[method:checkUserIsInside()] (624 ms)</li><li>nl.tudelft.sem.hoa.integration.DefaultControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.DefaultControllerTest]/[method:applyBoardTest5()] (16631 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:vote_throws_notBoardMember()] (668 ms)</li><li>nl.tudelft.sem.hoa.integration.DefaultControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.DefaultControllerTest]/[method:electionsResult2()] (672 ms)</li><li>nl.tudelft.sem.hoa.integration.ProposalsTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.ProposalsTest]/[method:vote_proposal_works()] (774 ms)</li><li>nl.tudelft.sem.hoa.integration.DefaultControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.DefaultControllerTest]/[method:applyBoardTest1()] (11697 ms)</li><li>nl.tudelft.sem.hoa.integration.SetUpServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.SetUpServiceTest]/[method:setUpHoaTest()] (622 ms)</li><li>nl.tudelft.sem.hoa.controllers.HoaControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.controllers.HoaControllerTest]/[method:create_correct_country_and_city()] (623 ms)</li><li>nl.tudelft.sem.hoa.integration.ReportServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.ReportServiceTest]/[method:reportText_null_throws_correct_exception()] (35 ms)</li><li>nl.tudelft.sem.hoa.controllers.HoaControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.controllers.HoaControllerTest]/[method:joinTest1()] (565 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:vote_throws_votingClosedTooYoung()] (674 ms)</li><li>nl.tudelft.sem.hoa.integration.SetUpServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.SetUpServiceTest]/[method:findHoaByHoaIdTest()] (621 ms)</li><li>nl.tudelft.sem.hoa.integration.SetUpServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.SetUpServiceTest]/[method:checkHoaIdIsUniqueTest()] (666 ms)</li><li>nl.tudelft.sem.hoa.controllers.HoaControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.controllers.HoaControllerTest]/[method:noSuchHoaTest()] (575 ms)</li><li>nl.tudelft.sem.hoa.integration.GetRulesTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.GetRulesTest]/[method:getRulesValid2()] (23 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:creation_works()] (709 ms)</li><li>nl.tudelft.sem.hoa.integration.SetUpServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.SetUpServiceTest]/[method:findByCountryAndCityTest()] (626 ms)</li><li>nl.tudelft.sem.hoa.integration.ProposalsTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.ProposalsTest]/[method:create_proposal_works()] (785 ms)</li><li>nl.tudelft.sem.hoa.integration.ReportServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.ReportServiceTest]/[method:testReportUser()] (34 ms)</li><li>nl.tudelft.sem.hoa.integration.DefaultControllerTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.DefaultControllerTest]/[method:applyBoardTest2()] (649 ms)</li><li>nl.tudelft.sem.hoa.integration.JoinHoaServiceTest.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.integration.JoinHoaServiceTest]/[method:leaveHoaSuccesfull()] (644 ms)</li><li>nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests.[engine:junit-jupiter]/[class:nl.tudelft.sem.hoa.domain.proposal.ProposalServiceTests]/[method:creation_with_rule_works()] (740 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.5.1
+
+</body>
+</html>

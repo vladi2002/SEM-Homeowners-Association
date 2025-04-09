@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.hoa.authentication.JwtTokenVerifierTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-01-25T00:40:03" hostname="LAPTOP-VLADI2" time="0.226">
+  <properties/>
+  <testcase name="validateExpiredToken()" classname="nl.tudelft.sem.hoa.authentication.JwtTokenVerifierTests" time="0.216"/>
+  <testcase name="parseNetid()" classname="nl.tudelft.sem.hoa.authentication.JwtTokenVerifierTests" time="0.002"/>
+  <testcase name="validateTokenIncorrectSignature()" classname="nl.tudelft.sem.hoa.authentication.JwtTokenVerifierTests" time="0.004"/>
+  <testcase name="validateNonExpiredToken()" classname="nl.tudelft.sem.hoa.authentication.JwtTokenVerifierTests" time="0.001"/>
+  <testcase name="validateMalformedToken()" classname="nl.tudelft.sem.hoa.authentication.JwtTokenVerifierTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

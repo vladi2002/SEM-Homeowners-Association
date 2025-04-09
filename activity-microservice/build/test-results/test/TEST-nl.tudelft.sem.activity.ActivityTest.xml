@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.activity.ActivityTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-01-25T00:39:17" hostname="LAPTOP-VLADI2" time="0.024">
+  <properties/>
+  <testcase name="constructorTest()" classname="nl.tudelft.sem.activity.ActivityTest" time="0.001"/>
+  <testcase name="getEmptyResponsesTest()" classname="nl.tudelft.sem.activity.ActivityTest" time="0.0"/>
+  <testcase name="getAssignedOrganizerResponseTest()" classname="nl.tudelft.sem.activity.ActivityTest" time="0.001"/>
+  <testcase name="equalsTest1()" classname="nl.tudelft.sem.activity.ActivityTest" time="0.0"/>
+  <testcase name="equalsTest2()" classname="nl.tudelft.sem.activity.ActivityTest" time="0.0"/>
+  <testcase name="getHoaIdTest()" classname="nl.tudelft.sem.activity.ActivityTest" time="0.0"/>
+  <testcase name="getDateTest()" classname="nl.tudelft.sem.activity.ActivityTest" time="0.0"/>
+  <testcase name="recordResponsesTest()" classname="nl.tudelft.sem.activity.ActivityTest" time="0.001"/>
+  <testcase name="setIdTest()" classname="nl.tudelft.sem.activity.ActivityTest" time="0.0"/>
+  <testcase name="getIdTest()" classname="nl.tudelft.sem.activity.ActivityTest" time="0.0"/>
+  <testcase name="toStringTest()" classname="nl.tudelft.sem.activity.ActivityTest" time="0.018"/>
+  <testcase name="hashCodeTest()" classname="nl.tudelft.sem.activity.ActivityTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

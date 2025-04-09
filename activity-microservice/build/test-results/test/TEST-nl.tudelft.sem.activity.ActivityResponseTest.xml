@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.activity.ActivityResponseTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-01-25T00:39:17" hostname="LAPTOP-VLADI2" time="0.005">
+  <properties/>
+  <testcase name="constructorTest()" classname="nl.tudelft.sem.activity.ActivityResponseTest" time="0.0"/>
+  <testcase name="getResponseTest()" classname="nl.tudelft.sem.activity.ActivityResponseTest" time="0.0"/>
+  <testcase name="equalsTest2()" classname="nl.tudelft.sem.activity.ActivityResponseTest" time="0.0"/>
+  <testcase name="equalsTest3()" classname="nl.tudelft.sem.activity.ActivityResponseTest" time="0.0"/>
+  <testcase name="equalsTest4()" classname="nl.tudelft.sem.activity.ActivityResponseTest" time="0.0"/>
+  <testcase name="setResponseTest()" classname="nl.tudelft.sem.activity.ActivityResponseTest" time="0.001"/>
+  <testcase name="equalsTest()" classname="nl.tudelft.sem.activity.ActivityResponseTest" time="0.0"/>
+  <testcase name="toStringTest()" classname="nl.tudelft.sem.activity.ActivityResponseTest" time="0.0"/>
+  <testcase name="getResponderNameTest()" classname="nl.tudelft.sem.activity.ActivityResponseTest" time="0.0"/>
+  <testcase name="hashCodeTest()" classname="nl.tudelft.sem.activity.ActivityResponseTest" time="0.0"/>
+  <testcase name="toStringTest2()" classname="nl.tudelft.sem.activity.ActivityResponseTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

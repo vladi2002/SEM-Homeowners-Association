@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\authentication\AuthManagerTests.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\authentication\JwtAuthenticationEntryPointTests.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\authentication\JwtRequestFilterTests.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\authentication\JwtTokenVerifierTests.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\controllers\HoaControllerTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\domain\elections\ElectionServiceTests.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\domain\elections\ElectionTests.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\domain\hoa\HoaTests.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\domain\proposal\ProposalServiceTests.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\DefaultControllerTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\GetRulesTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\HoaRepositoryTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\JoinHoaServiceTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\MemberRepositoryTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\MembersRepositoryTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\ProposalsTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\ReportRepositoryTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\ReportServiceTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\ReportingTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\RuleRepositoryTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\RuleServiceTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\SetUpServiceTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\integration\utils\JsonUtil.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\profiles\MockAuthenticationManagerProfile.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\profiles\MockHoaRepository.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\profiles\MockMembersRepository.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\profiles\MockRuleRepository.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\profiles\MockSetUpServiceProfile.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\profiles\MockTokenVerifierProfile.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\AddressTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\HoaIdAttributeConverterTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\HoaIdTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\HoaTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\HoaWasCreatedEventTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\MemberAppUserTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\ReportTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\RuleHoaTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\RuleProposalTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\UserHasJoinedEventTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\vote\ElectionVoteTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\vote\ProposalVoteTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\vote\SpecialVoteTest.java">
+</file>
+<file name="C:\Portable\Projects\SEM\SEM19a\hoa-microservice\src\test\java\nl\tudelft\sem\hoa\unit\vote\TypelessVoteTest.java">
+</file>
+</checkstyle>

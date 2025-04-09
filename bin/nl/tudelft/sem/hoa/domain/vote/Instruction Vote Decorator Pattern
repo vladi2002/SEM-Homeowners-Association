@@ -1,0 +1,16 @@
+
+//how to create a vote using the decorator pattern
+//first create a Vote
+Vote voteFromPiet = new typelessVote(piet.getUserId());
+Vote voteFromJan = new typelessVote(jan.getUserId());
+Vote voteFromKlaas = new typelessVote(klaas.getUserId());
+
+
+//then make the vote of correct type
+SpecialVote proposalVote = new ProposalVote(vote1, f382d92c, ABSTAIN);
+SpecialVote electionVote = new ElectionVote(voteFromJan, 371648ccd, boardMemberJan.getId());
+SpecialVote electionVote = new ElectionVote(voteFromKlaas, 371648ccd, boardMemberWitek.getId());
+
+//then you can use all method in ElectionVote class etc
+electionVote.getUserId();
+electionVote.getElectionId();

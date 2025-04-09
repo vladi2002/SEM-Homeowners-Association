@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.template.authentication.domain.user.NetIdTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-01-25T00:39:41" hostname="LAPTOP-VLADI2" time="0.01">
+  <properties/>
+  <testcase name="testConstructorOtherCharsThrowsException()" classname="nl.tudelft.sem.template.authentication.domain.user.NetIdTests" time="0.005"/>
+  <testcase name="testConstructorAllowed()" classname="nl.tudelft.sem.template.authentication.domain.user.NetIdTests" time="0.002"/>
+  <testcase name="testConstructorBracesThrowsException()" classname="nl.tudelft.sem.template.authentication.domain.user.NetIdTests" time="0.001"/>
+  <testcase name="testConstructorCombiThrowsException()" classname="nl.tudelft.sem.template.authentication.domain.user.NetIdTests" time="0.0"/>
+  <testcase name="testInputTooShortThrowsException()" classname="nl.tudelft.sem.template.authentication.domain.user.NetIdTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

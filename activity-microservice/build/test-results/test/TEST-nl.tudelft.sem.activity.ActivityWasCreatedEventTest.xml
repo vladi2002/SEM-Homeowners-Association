@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.sem.activity.ActivityWasCreatedEventTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2023-01-25T00:39:17" hostname="LAPTOP-VLADI2" time="0.003">
+  <properties/>
+  <testcase name="constructorTest()" classname="nl.tudelft.sem.activity.ActivityWasCreatedEventTest" time="0.0"/>
+  <testcase name="setEventDescriptionTest()" classname="nl.tudelft.sem.activity.ActivityWasCreatedEventTest" time="0.0"/>
+  <testcase name="getHoaIdTest()" classname="nl.tudelft.sem.activity.ActivityWasCreatedEventTest" time="0.0"/>
+  <testcase name="setDateTest()" classname="nl.tudelft.sem.activity.ActivityWasCreatedEventTest" time="0.0"/>
+  <testcase name="getDateTest()" classname="nl.tudelft.sem.activity.ActivityWasCreatedEventTest" time="0.001"/>
+  <testcase name="getIdTest()" classname="nl.tudelft.sem.activity.ActivityWasCreatedEventTest" time="0.0"/>
+  <testcase name="getOrganizerTest()" classname="nl.tudelft.sem.activity.ActivityWasCreatedEventTest" time="0.0"/>
+  <testcase name="getEventDescriptionTest()" classname="nl.tudelft.sem.activity.ActivityWasCreatedEventTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
