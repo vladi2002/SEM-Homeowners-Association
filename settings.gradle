@@ -1,0 +1,6 @@
+rootProject.name = 'template'
+
+include 'authentication-microservice'
+//include 'example-microservice'
+include 'hoa-microservice'
+include 'activity-microservice'
